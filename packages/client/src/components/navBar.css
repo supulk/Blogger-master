@@ -1,0 +1,33 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 11vh;
+    background-color: #ffffff;
+    z-index: 100;
+    justify-content:space-between;
+    border: 0.5px solid rgb(237, 237, 237);
+    box-shadow: 0 1px 4px rgba(237, 237, 237, 0.625);
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.navbar-left{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.menu-button{
+    width: 50px;
+    height: 50px;
+}
